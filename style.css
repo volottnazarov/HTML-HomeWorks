@@ -3,8 +3,6 @@
     src: url();
 }
 * {
-    margin: 0;
-    padding: 0;
     text-decoration: none;
 }
 .container{
@@ -14,31 +12,21 @@
 body {
     scroll-behavior: smooth;
 }
-.grow {
-    position: absolute;
-    width: 46.33px;
-    height: 17.47px;
-    padding: 17px 0;
-    color: black;
-}
-.be {
-    position: absolute;
-    width: 46.33px;
-    height: 17.47px;
-    padding: 17px 36px;
-    color: red;
-}
+
+
 .logo {
     position: static;
     width: 35px;
     height: 40px;
-    padding: 0px 0px; */
+    margin: 0px 0px;
+}
+.div{
+    width: 577px;
+    margin: -30px 597px;
+    display: flex;
+    justify-content: space-between;
 }
 .home {
-    position: absolute;
-    width: 86.33px;
-    height: 17.47px;
-    padding: 20px 597px;
     color: rgb(242, 88, 34);
     font-family: Inter;
     font-size: 14px;
@@ -47,76 +35,7 @@ body {
     letter-spacing: 0%;
     text-align: left;
 }
-.about {
-    position: absolute;
-    width: 86px;
-    height: 17px;
-    padding: 20px 667px;
-    color: rgb(0, 0, 0);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.services {
-    position: absolute;
-    width: 57px;
-    height: 17px;
-    padding: 20px 757px;
-    color: rgb(0, 0, 0);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.features {
-    position: absolute;
-    width: 57px;
-    height: 17px;
-    padding: 20px 840px;
-    color: rgb(0, 0, 0);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.team {
-    position: absolute;
-    width: 57px;
-    height: 17px;
-    padding: 20px 927px;
-    color: rgb(0, 0, 0);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.blog {
-    position: absolute;
-    width: 57px;
-    height: 17px;
-    padding: 20px 997px;
-    color: rgb(0, 0, 0);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.cont {
-    position: absolute;
-    width: 57px;
-    height: 17px;
-    padding: 20px 1057px;
+.fontNav {
     color: rgb(0, 0, 0);
     font-family: Inter;
     font-size: 14px;
@@ -145,22 +64,32 @@ body {
 .space {
     margin-top: 84px;
 }
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 .str {
     position: static;
     width: 556px;
     height: 56px;
-    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
     color: rgb(136, 136, 136);
     font-size: 20px;
     font-weight: 400;
     line-height: 140%;
     text-align: left;
 }
-.img1 {
+.img {
     position: absolute;
     width: 545px;
     height: 375px;
-    left: 650px;
+    left: 700px;
     right: 0;
     top: 130px;
     bottom: 0;
@@ -174,19 +103,9 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 0px;
+    padding: 30px 0;
 }
 .btn {
-    position: static;
-    width: 556px;
-    height: 51px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-}
-.btn2 {
     position: static;
     width: 140px;
     height: 51px;
@@ -202,6 +121,13 @@ body {
     border-radius: 56px;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
     background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .watch {
     position: static;
@@ -216,61 +142,21 @@ body {
     order: 1;
     flex-grow: 0;
     margin: 0px 48px;
+    color: rgb(170, 170, 170);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .footer {
-    position: absolute;
-    width: 1200px;
-    height: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.footerLogo{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0px 100px 0px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 0px;
+    justify-content: space-between;
+    padding: 0;
 }
-.liva {
-    position: static;
-    width: 134px;
-    height: 50px;
-    padding: 0px;
-    margin: 0px 48px;
-}
-.kanba {
-    position: static;
-    width: 160px;
-    height: 50px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 48px;
-}
-.amara {
-    position: static;
-    width: 160px;
-    height: 50px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 0px 48px;
-}
-.aven {
-    position: static;
-    width: 160px;
-    height: 50px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    margin: 0px 48px;
-}
-.hexlab {
-    position: static;
-    width: 160px;
-    height: 50px;
-    flex: none;
-    order: 4;
-    flex-grow: 0;
-    margin: 0px 48px;
-}
+
