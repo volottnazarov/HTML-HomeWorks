@@ -2,7 +2,13 @@
     font-family: Inter;
     src: url();
 }
+img {
+    display: block;
+    max-width: 100%;
+}
 * {
+    margin: 0;
+    padding: 0;
     text-decoration: none;
 }
 .container{
@@ -13,18 +19,24 @@ body {
     scroll-behavior: smooth;
 }
 
-
-.logo {
-    position: static;
-    width: 35px;
+.header {
     height: 40px;
-    margin: 0px 0px;
+    padding: 40px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 137px;
+    height: 40px;
 }
 .div{
     width: 577px;
-    margin: -30px 597px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .home {
     color: rgb(242, 88, 34);
@@ -45,7 +57,6 @@ body {
     text-align: left;
 }
 .mainText {
-    position: static;
     width: 556px;
     height: 216px;
     display: flex;
@@ -57,12 +68,14 @@ body {
     font-family: Inter;
     font-size: 60px;
     font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 .space {
-    margin-top: 84px;
+    padding-top: 84px;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
 }
 .mainContent {
     display: flex;
@@ -71,22 +84,19 @@ body {
     align-items: flex-start;
 }
 .str {
-    position: static;
     width: 556px;
     height: 56px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0px;
+    padding-top: 20px;
     color: rgb(136, 136, 136);
     font-size: 20px;
     font-weight: 400;
-    line-height: 140%;
     text-align: left;
 }
-.img {
-    position: absolute;
+.img2 {
     width: 545px;
     height: 375px;
     left: 700px;
@@ -96,17 +106,15 @@ body {
     background: url(pngfind);
 }
 .btnMeta {
-    position: static;
     width: 556px;
     height: 51px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 30px 0;
+    padding-top: 32px;
 }
 .btn {
-    position: static;
     width: 140px;
     height: 51px;
     display: flex;
@@ -125,12 +133,9 @@ body {
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0%;
     text-align: left;
 }
 .watch {
-    position: static;
     width: 99px;
     height: 19px;
     display: flex;
@@ -146,17 +151,15 @@ body {
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0%;
     text-align: left;
 }
 .footer {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    height: 250px;
+    padding-top: 100px;
 }
 .footerLogo{
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    padding-top: 100px;
 }
 
