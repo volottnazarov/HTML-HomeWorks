@@ -199,7 +199,6 @@ body {
     text-align: left;
 }
 .wide {
-    max-width: 1920px;
     height: 916px;
     background: rgb(250, 250, 250);
 }
@@ -231,8 +230,8 @@ body {
 .sCard {
     width: 378px;
     height: 542px;
-    background: url(b91bb0d6fe6570802388ea527cd7e709);
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background-color: white;
 }
 .vector {
     width: 10px;
@@ -275,3 +274,4 @@ body {
     align-items: center;
     gap: 4px;
 }
+
